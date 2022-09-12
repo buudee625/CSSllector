@@ -1,0 +1,38 @@
+:root {
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  --text-primary: rgb(216, 216, 216);
+  --text-secondary: rgb(170, 170, 170);
+  --bg-primary: rgb(30, 30, 30);
+  --bg-secondary: rgb(60, 60, 60);
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(80, 80, 80);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: antiquewhite;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+main {
+  margin: 0 5rem 0 3rem;
+  padding: 1rem;
+}
+
+.navbar {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: var(--bg-secondary);
+}
